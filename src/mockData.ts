@@ -1,0 +1,65 @@
+import { BusInfo } from './types';
+
+export const INITIAL_BUSES: BusInfo[] = [
+  {
+    busNo: '101',
+    departureTime: '8:30 A.M.',
+    arrivalTime: '10:15 A.M.',
+    from: 'Center',
+    to: 'Railway Station',
+    fare: 35,
+    totalTime: '1h 45m',
+    seatsLeft: 45,
+    stops: ['Center', 'Market', 'MG Road', 'Railway Station'],
+  },
+  {
+    busNo: '105',
+    departureTime: '9:15 A.M.',
+    arrivalTime: '11:00 A.M.',
+    from: 'Center',
+    to: 'Airport',
+    fare: 40,
+    totalTime: '1h 45m',
+    seatsLeft: 38,
+    stops: ['Center', 'Indira Circle', 'Bypass Ring', 'Airport'],
+  },
+  {
+    busNo: '112',
+    departureTime: '10:45 A.M.',
+    arrivalTime: '12:30 P.M.',
+    from: 'Center',
+    to: 'Tech Park',
+    fare: 35,
+    totalTime: '1h 45m',
+    seatsLeft: 29,
+    stops: ['Center', 'Old Town', 'Cyber Hub', 'Tech Park'],
+  },
+  {
+    busNo: '124',
+    departureTime: '01:15 P.M.',
+    arrivalTime: '03:00 P.M.',
+    from: 'Center',
+    to: 'Railway Station',
+    fare: 35,
+    totalTime: '1h 45m',
+    seatsLeft: 42,
+    stops: ['Center', 'Market', 'MG Road', 'Railway Station'],
+  },
+  {
+    busNo: '138',
+    departureTime: '04:30 P.M.',
+    arrivalTime: '06:15 P.M.',
+    from: 'Center',
+    to: 'Tech Park',
+    fare: 40,
+    totalTime: '1h 45m',
+    seatsLeft: 22,
+    stops: ['Center', 'Old Town', 'Cyber Hub', 'Tech Park'],
+  },
+];
+
+export const RECENT_SEARCHES = [
+  'Center -> Railway Station',
+  'Airport -> Center',
+  'Center -> Tech Park',
+];

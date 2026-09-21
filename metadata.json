@@ -1,0 +1,6 @@
+{
+  "name": "Bus Schedule App",
+  "description": "Material Design 3 bus scheduling and booking application with live multi-screen navigation, interactive seat selection, search, and ticketing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
